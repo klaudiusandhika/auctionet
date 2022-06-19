@@ -155,10 +155,18 @@
     .btn-bid{
         background-color:#bd0000;
         border-radius: 10px;
+        transition: 0.1s ;
     }
     .card{
         border-radius: 10px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        transition: 0.2s transform;
     }
-
+    .card:hover{
+        transform: scale(1.02);
+    }
+    .btn-bid:hover{
+        /* transform: scale(1.03); */
+        font-weight: bold;
+    }
 </style>
